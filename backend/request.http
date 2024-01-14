@@ -1,0 +1,31 @@
+# GET ALL USERS
+GET http://localhost:5001/users
+###
+
+# GET A SINGLE USER
+GET http://localhost:5001/users/2
+###
+
+# REGISTER A SINGLE USER
+GET http://localhost:5001/register
+###
+
+# GET ALL BOOKINGS
+http://localhost:5001/bookings
+
+###
+# GET ALL BOOKINGS FOR A USER
+http://localhost:5001/users/1/bookings
+###
+http://localhost:5001/listings
+
+###
+
+
+# POST http://localhost:5000/posts
+# Content-Type: application/json
+
+# {
+#         "title": "airbnb clone",
+#         "author": "puseletso"
+#     }
