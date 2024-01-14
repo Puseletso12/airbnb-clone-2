@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json -p 5001 --middlewares ./node_modules/json-server-auth"
+    "server": "json-server --watch db.json -p 5001"
   },
   "keywords": [],
   "author": "",

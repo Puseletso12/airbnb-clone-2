@@ -1,9 +1,24 @@
 import './App.css';
+import Header from './components/layout/Header';
 
 const App = () => {
   return (
     <div className='app'>
-      <h1>Airbnb Clone</h1>
+      <Header />
+      {/* 
+      Home Page
+        Header
+      
+      Banner
+        Search
+
+      Card
+
+      Footer
+
+      Search Page
+        Header
+      */}
     </div>
   );
 }

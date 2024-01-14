@@ -6,8 +6,25 @@ GET http://localhost:5001/users
 GET http://localhost:5001/users/2
 ###
 
-# REGISTER A SINGLE USER
-GET http://localhost:5001/register
+# REGISTER A USER
+POST http://localhost:5001/register
+Content-Type: application/json
+
+{
+    "email": "brucewayne@gotham.com",
+    "password": "test123"
+}
+###
+
+# SIGN IN
+POST http://localhost:5001/signin
+Content-Type: application/json
+
+{
+    "email": "brucewayne@gmail.com",
+    "password": "test123"
+}
+
 ###
 
 # GET ALL BOOKINGS
