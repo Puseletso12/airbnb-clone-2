@@ -20,7 +20,7 @@ const Banner = () => {
       <div className="banner_info">
         <h1>Get out and stretch your imagination</h1>
         <h5>
-          Plan a diffferent kind of getaway to uncover the hidden gems near you.
+          Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>
         <Button variant="outlined">Explore Nearby</Button>
       </div>
